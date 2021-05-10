@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		904D47B1264999F900BC9F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D47B0264999F900BC9F3A /* AppDelegate.swift */; };
+		904D47B3264999F900BC9F3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D47B2264999F900BC9F3A /* SceneDelegate.swift */; };
+		904D47B5264999F900BC9F3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D47B4264999F900BC9F3A /* ViewController.swift */; };
+		904D47B8264999FA00BC9F3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904D47B6264999FA00BC9F3A /* Main.storyboard */; };
+		904D47BA264999FE00BC9F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904D47B9264999FE00BC9F3A /* Assets.xcassets */; };
+		904D47BD264999FE00BC9F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904D47BB264999FE00BC9F3A /* LaunchScreen.storyboard */; };
+		904D47C8264999FE00BC9F3A /* MockBankAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D47C7264999FE00BC9F3A /* MockBankAppTests.swift */; };
+		904D47D3264999FE00BC9F3A /* MockBankAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D47D2264999FE00BC9F3A /* MockBankAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		904D47C4264999FE00BC9F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904D47A5264999F900BC9F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904D47AC264999F900BC9F3A;
+			remoteInfo = MockBankApp;
+		};
+		904D47CF264999FE00BC9F3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904D47A5264999F900BC9F3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904D47AC264999F900BC9F3A;
+			remoteInfo = MockBankApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		904D47AD264999F900BC9F3A /* MockBankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockBankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		904D47B0264999F900BC9F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		904D47B2264999F900BC9F3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		904D47B4264999F900BC9F3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		904D47B7264999FA00BC9F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		904D47B9264999FE00BC9F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		904D47BC264999FE00BC9F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		904D47BE264999FE00BC9F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904D47C3264999FE00BC9F3A /* MockBankAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockBankAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		904D47C7264999FE00BC9F3A /* MockBankAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBankAppTests.swift; sourceTree = "<group>"; };
+		904D47C9264999FE00BC9F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904D47CE264999FE00BC9F3A /* MockBankAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockBankAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		904D47D2264999FE00BC9F3A /* MockBankAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBankAppUITests.swift; sourceTree = "<group>"; };
+		904D47D4264999FE00BC9F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		904D47AA264999F900BC9F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D47C0264999FE00BC9F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D47CB264999FE00BC9F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		904D47A4264999F900BC9F3A = {
+			isa = PBXGroup;
+			children = (
+				904D47AF264999F900BC9F3A /* MockBankApp */,
+				904D47C6264999FE00BC9F3A /* MockBankAppTests */,
+				904D47D1264999FE00BC9F3A /* MockBankAppUITests */,
+				904D47AE264999F900BC9F3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		904D47AE264999F900BC9F3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				904D47AD264999F900BC9F3A /* MockBankApp.app */,
+				904D47C3264999FE00BC9F3A /* MockBankAppTests.xctest */,
+				904D47CE264999FE00BC9F3A /* MockBankAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		904D47AF264999F900BC9F3A /* MockBankApp */ = {
+			isa = PBXGroup;
+			children = (
+				904D47B0264999F900BC9F3A /* AppDelegate.swift */,
+				904D47B2264999F900BC9F3A /* SceneDelegate.swift */,
+				904D47B4264999F900BC9F3A /* ViewController.swift */,
+				904D47B6264999FA00BC9F3A /* Main.storyboard */,
+				904D47B9264999FE00BC9F3A /* Assets.xcassets */,
+				904D47BB264999FE00BC9F3A /* LaunchScreen.storyboard */,
+				904D47BE264999FE00BC9F3A /* Info.plist */,
+			);
+			path = MockBankApp;
+			sourceTree = "<group>";
+		};
+		904D47C6264999FE00BC9F3A /* MockBankAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				904D47C7264999FE00BC9F3A /* MockBankAppTests.swift */,
+				904D47C9264999FE00BC9F3A /* Info.plist */,
+			);
+			path = MockBankAppTests;
+			sourceTree = "<group>";
+		};
+		904D47D1264999FE00BC9F3A /* MockBankAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				904D47D2264999FE00BC9F3A /* MockBankAppUITests.swift */,
+				904D47D4264999FE00BC9F3A /* Info.plist */,
+			);
+			path = MockBankAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		904D47AC264999F900BC9F3A /* MockBankApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904D47D7264999FE00BC9F3A /* Build configuration list for PBXNativeTarget "MockBankApp" */;
+			buildPhases = (
+				904D47A9264999F900BC9F3A /* Sources */,
+				904D47AA264999F900BC9F3A /* Frameworks */,
+				904D47AB264999F900BC9F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockBankApp;
+			productName = MockBankApp;
+			productReference = 904D47AD264999F900BC9F3A /* MockBankApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		904D47C2264999FE00BC9F3A /* MockBankAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904D47DA264999FE00BC9F3A /* Build configuration list for PBXNativeTarget "MockBankAppTests" */;
+			buildPhases = (
+				904D47BF264999FE00BC9F3A /* Sources */,
+				904D47C0264999FE00BC9F3A /* Frameworks */,
+				904D47C1264999FE00BC9F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904D47C5264999FE00BC9F3A /* PBXTargetDependency */,
+			);
+			name = MockBankAppTests;
+			productName = MockBankAppTests;
+			productReference = 904D47C3264999FE00BC9F3A /* MockBankAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		904D47CD264999FE00BC9F3A /* MockBankAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904D47DD264999FE00BC9F3A /* Build configuration list for PBXNativeTarget "MockBankAppUITests" */;
+			buildPhases = (
+				904D47CA264999FE00BC9F3A /* Sources */,
+				904D47CB264999FE00BC9F3A /* Frameworks */,
+				904D47CC264999FE00BC9F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904D47D0264999FE00BC9F3A /* PBXTargetDependency */,
+			);
+			name = MockBankAppUITests;
+			productName = MockBankAppUITests;
+			productReference = 904D47CE264999FE00BC9F3A /* MockBankAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		904D47A5264999F900BC9F3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					904D47AC264999F900BC9F3A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					904D47C2264999FE00BC9F3A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 904D47AC264999F900BC9F3A;
+					};
+					904D47CD264999FE00BC9F3A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 904D47AC264999F900BC9F3A;
+					};
+				};
+			};
+			buildConfigurationList = 904D47A8264999F900BC9F3A /* Build configuration list for PBXProject "MockBankApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 904D47A4264999F900BC9F3A;
+			productRefGroup = 904D47AE264999F900BC9F3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904D47AC264999F900BC9F3A /* MockBankApp */,
+				904D47C2264999FE00BC9F3A /* MockBankAppTests */,
+				904D47CD264999FE00BC9F3A /* MockBankAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		904D47AB264999F900BC9F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904D47BD264999FE00BC9F3A /* LaunchScreen.storyboard in Resources */,
+				904D47BA264999FE00BC9F3A /* Assets.xcassets in Resources */,
+				904D47B8264999FA00BC9F3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D47C1264999FE00BC9F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D47CC264999FE00BC9F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		904D47A9264999F900BC9F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904D47B5264999F900BC9F3A /* ViewController.swift in Sources */,
+				904D47B1264999F900BC9F3A /* AppDelegate.swift in Sources */,
+				904D47B3264999F900BC9F3A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D47BF264999FE00BC9F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904D47C8264999FE00BC9F3A /* MockBankAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D47CA264999FE00BC9F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904D47D3264999FE00BC9F3A /* MockBankAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		904D47C5264999FE00BC9F3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904D47AC264999F900BC9F3A /* MockBankApp */;
+			targetProxy = 904D47C4264999FE00BC9F3A /* PBXContainerItemProxy */;
+		};
+		904D47D0264999FE00BC9F3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904D47AC264999F900BC9F3A /* MockBankApp */;
+			targetProxy = 904D47CF264999FE00BC9F3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		904D47B6264999FA00BC9F3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904D47B7264999FA00BC9F3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		904D47BB264999FE00BC9F3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904D47BC264999FE00BC9F3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		904D47D5264999FE00BC9F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		904D47D6264999FE00BC9F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		904D47D8264999FE00BC9F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX7PPPW38R;
+				INFOPLIST_FILE = MockBankApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayalan.MockBankApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		904D47D9264999FE00BC9F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX7PPPW38R;
+				INFOPLIST_FILE = MockBankApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayalan.MockBankApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		904D47DB264999FE00BC9F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX7PPPW38R;
+				INFOPLIST_FILE = MockBankAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayalan.MockBankAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockBankApp.app/MockBankApp";
+			};
+			name = Debug;
+		};
+		904D47DC264999FE00BC9F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX7PPPW38R;
+				INFOPLIST_FILE = MockBankAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayalan.MockBankAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockBankApp.app/MockBankApp";
+			};
+			name = Release;
+		};
+		904D47DE264999FE00BC9F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX7PPPW38R;
+				INFOPLIST_FILE = MockBankAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayalan.MockBankAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockBankApp;
+			};
+			name = Debug;
+		};
+		904D47DF264999FE00BC9F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XX7PPPW38R;
+				INFOPLIST_FILE = MockBankAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayalan.MockBankAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockBankApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		904D47A8264999F900BC9F3A /* Build configuration list for PBXProject "MockBankApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904D47D5264999FE00BC9F3A /* Debug */,
+				904D47D6264999FE00BC9F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904D47D7264999FE00BC9F3A /* Build configuration list for PBXNativeTarget "MockBankApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904D47D8264999FE00BC9F3A /* Debug */,
+				904D47D9264999FE00BC9F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904D47DA264999FE00BC9F3A /* Build configuration list for PBXNativeTarget "MockBankAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904D47DB264999FE00BC9F3A /* Debug */,
+				904D47DC264999FE00BC9F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904D47DD264999FE00BC9F3A /* Build configuration list for PBXNativeTarget "MockBankAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904D47DE264999FE00BC9F3A /* Debug */,
+				904D47DF264999FE00BC9F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 904D47A5264999F900BC9F3A /* Project object */;
+}
