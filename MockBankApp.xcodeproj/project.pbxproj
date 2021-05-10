@@ -16,6 +16,7 @@
 		904D47C8264999FE00BC9F3A /* MockBankAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D47C7264999FE00BC9F3A /* MockBankAppTests.swift */; };
 		904D47D3264999FE00BC9F3A /* MockBankAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D47D2264999FE00BC9F3A /* MockBankAppUITests.swift */; };
 		904D47E126499C4C00BC9F3A /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D47E026499C4C00BC9F3A /* Client.swift */; };
+		904D47E326499CFD00BC9F3A /* ClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D47E226499CFD00BC9F3A /* ClientTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		904D47D2264999FE00BC9F3A /* MockBankAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBankAppUITests.swift; sourceTree = "<group>"; };
 		904D47D4264999FE00BC9F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		904D47E026499C4C00BC9F3A /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		904D47E226499CFD00BC9F3A /* ClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				904D47C7264999FE00BC9F3A /* MockBankAppTests.swift */,
 				904D47C9264999FE00BC9F3A /* Info.plist */,
+				904D47E226499CFD00BC9F3A /* ClientTest.swift */,
 			);
 			path = MockBankAppTests;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904D47E326499CFD00BC9F3A /* ClientTest.swift in Sources */,
 				904D47C8264999FE00BC9F3A /* MockBankAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
